@@ -49,10 +49,10 @@ nav a:hover {
     color: gray;
 }
 .msg {
-    background-color: aquamarine;
+    background-color: 33658A;
 }
 footer {
-    background-color: cadetblue;
+    background-color: 33658A;
     color: black;
 }
 footer a {
@@ -78,8 +78,8 @@ h4 {
     color: black;
 }
 .msg h2 {
-
+    color: white;
 }
 .msg p {
-
+    color: white;
 }
