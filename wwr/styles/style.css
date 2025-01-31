@@ -24,23 +24,24 @@ text-decoration: none;
 }
 main section {
     text-align: center;
+    color: rgb(14, 85, 51);
 }
 #background {
     height: 725px;
-    background-color: A5B6F3 ;
+    background-color: rgb(113, 162, 181) ;
 }
 body {
-    background-color: A5B6F3;
+    background-color: rgb(149, 228, 197);
 }
 header {
-    background-color: lightskyblue;
+    background-color: rgb(34, 113, 105);
 }
 nav a:hover {
     background-color: azure;
     color: gray;
 }
 .book, .join {
-    background-color: 33658A;
+    background-color: rgb(34, 113, 105);
     color: white;
     text-decoration: none;
 }
@@ -49,11 +50,11 @@ nav a:hover {
     color: gray;
 }
 .msg {
-    background-color: 33658A;
+    background-color: rgb(34, 113, 105);
 }
 footer {
-    background-color: 33658A;
-    color: black;
+    background-color: rgb(34, 113, 105);
+    color: white;
 }
 footer a {
     color: white;
@@ -72,10 +73,10 @@ footer p a:hover {
     width: 80px;
 }
 .home-title {
-    color: white;
+    color: rgb(13, 38, 21);
 }
 h4 {
-    color: black;
+    color: rgb(14, 85, 51);
 }
 .msg h2 {
     color: white;
