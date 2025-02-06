@@ -26,15 +26,15 @@
   .image-section {
     display: flex;
     justify-content: center;
-    gap: 20rem;
+    gap: 10rem;
     padding: 2rem;
     background-color: #444; /* Keeps the gray background for the section */
   }
   
   .image-section img {
-    width: 200px; /* Adjust size as needed */
-    height: 200px; /* Maintains aspect ratio */
-    border: 50px solid #333;
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Maintains aspect ratio */
+    border: 30px solid #333;
     border-radius: 50%; /* Makes the images round */
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
