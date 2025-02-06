@@ -1,0 +1,41 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #444;
+  }
+  
+  /* Hero Section */
+  .hero {
+    width: 100%;
+  }
+  
+  .hero img {
+    width: 100%; /* Makes the image span the full width of the page */
+    height: auto; /* Keeps the aspect ratio */
+    display: block; /* Removes extra space below the image */
+  }
+  
+  /* Image Section */
+  .image-section {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    padding: 2rem;
+    background-color: #444; /* Keeps the gray background for the section */
+  }
+  
+  .image-section img {
+    width: 800px; /* Adjust size as needed */
+    height: 800px; /* Maintains aspect ratio */
+    border: 50px solid #333;
+    border-radius: 50%; /* Makes the images round */
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
+  }
