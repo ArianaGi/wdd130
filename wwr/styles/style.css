@@ -127,6 +127,10 @@ footer a:hover {
     color: gray;
 }
 
+footer p {
+    font-size: 18px;
+}
+
 footer p a:hover {
     text-decoration: underline;
 }
