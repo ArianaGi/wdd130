@@ -1,86 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+
 .logo {
     width: 80px;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav a {
 text-align:center;
 color: white;
 text-decoration: none;
+padding: 35px;
 }
+
 #hero-img {
     width: 100%;
 }
+
 #hero-msg h1 {
     text-align:center;
 }
+
 #hero-msg h4 {
     text-align: center;
 }
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
     color: rgb(14, 85, 51);
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: rgb(113, 162, 181) ;
 }
+
 body {
     background-color: rgb(149, 228, 197);
+    font-family: Lora, Quicksand, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: rgb(34, 113, 105);
 }
+
 nav a:hover {
     background-color: azure;
     color: gray;
 }
+
 .book, .join {
     background-color: rgb(34, 113, 105);
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.rivers-card {
+    margin: 200px 0;
+    border: 10px solid rgb(34, 113, 105);
+}
+
+.camping-card {
+    margin: 200px 0;
+    border: 10px solid rgb(34, 113, 105);
+}
+
+.rapids-card {
+    margin: 200px 0;
+    border: 10px solid rgb(34, 113, 105);
+}
+
 .book:hover, .join:hover {
     background-color: white;
     color: gray;
 }
+
 .msg {
     background-color: rgb(34, 113, 105);
+    line-height: 1.5em;
+    padding: 35px;
 }
+
 footer {
     background-color: rgb(34, 113, 105);
     color: white;
+    padding: 25px 30px;
+    margin-top: 200px;
 }
+
 footer a {
     color: white;
     text-decoration: none;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
 footer a:hover {
     color: gray;
 }
+
 footer p {
     font-size: 1.2em;
-}    
+}  
+
 footer p a:hover {
     text-decoration: underline;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
 .home-title {
     color: rgb(13, 38, 21);
+    font-family: Merriweather;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 h4 {
     color: rgb(14, 85, 51);
 }
+
 .msg h2 {
     color: white;
+    font-family: Merriweather;
 }
+
 .msg p {
     color: white;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
