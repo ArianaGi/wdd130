@@ -58,8 +58,13 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-family: Merriweather,'Roboto Condensed', monospace;
+}
+
 h2 {
     margin: 0;
+    font-family: Merriweather, 'Roboto Condensed', monospace;
 }
 
 header {
@@ -149,6 +154,7 @@ footer p a:hover {
 
 h4 {
     color: rgb(14, 85, 51);
+    font-family: Merriweather, 'Roboto Condensed', monospace;
 }
 
 .msg h2 {
