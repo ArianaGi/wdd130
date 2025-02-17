@@ -91,12 +91,13 @@ nav a:hover {
     border: 10px solid rgb(34, 113, 105);
 }
 
-.camping-card {
-    margin: 200px 0;
-    border: 10px solid rgb(34, 113, 105);
+.card-img {
+    border: 10px;
+    border-style: solid;
+    border-color:rgb(34, 113, 105) ;
 }
 
-.rapids-card {
+.camping-card, .rapids-card {
     margin: 200px 0;
     border: 10px solid rgb(34, 113, 105);
 }
@@ -147,7 +148,7 @@ footer p a:hover {
 
 .home-title {
     color: rgb(13, 38, 21);
-    font-family: Merriweather;
+    font-family: Merriweather, 'Roboto Condensed', monospace;
     font-size: 2em;
     margin-top: 10px;
 }
