@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: (1 800px);
+    align-items: center;
+}
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.cherries {
+    width: 100px;
+    margin-right: 10px;
+}
+.gray-box {
+    background-color: gray;
+    padding: 20px;
+}
+.sweet {
+    color: black;
+}
+.cherries-text {
+    color: darkred;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

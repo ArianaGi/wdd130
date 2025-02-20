@@ -1,0 +1,28 @@
+element.style {
+
+}
+header {
+    background-color: darkgreen;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8em;
+    display: inline-block;
+}
+a:hoover {
+    color: darkgoldenrod;
+    background-color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#flex-container {
+    display: flex;
+    gap: 2em;
+}
+#flex-container > section {
+    flex: 200px;
+    border: 1px solid black;
+}
