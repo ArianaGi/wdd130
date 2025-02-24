@@ -97,6 +97,7 @@ header {
     grid-template-columns: 150px auto;
     justify-self: center;
     align-self: center;
+    width: 100%;
 }
 #logo_link {
     padding-top: 5px;
