@@ -22,7 +22,7 @@ Fonts are separated by a & */
 
 /* change the values below to your chosen font(s) */ 
 
---heading-font: "Merriweather"; 
+--heading-font: Merriweather; 
 
 --paragraph-font: Lora, Quicksand, sans-serif; 
 
