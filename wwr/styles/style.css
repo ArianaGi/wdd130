@@ -229,6 +229,70 @@ h4 {
     font-size: 18px;
     padding-bottom: 15px;
 }
+
+/*---------------------------rivers page---------------------------*/
+.rivers-grid {
+    gap: 20px;
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+#main-fork-p {
+    text-align: left;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.main-fork-of-the-salmon {
+    width: 100%;
+  max-width: 300px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+.desolation-and-gray-canyon {
+    float: left;
+    margin-left: 40px;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#gray-canyon-p {
+    text-align: right;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.grand-canyon {
+    float: right;
+  margin-right: 40px;
+}
+
+#grand-canyon-p {
+    text-align: left;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+#large-img {
+    width: 100%;
+}
+
+.rivers-title {
+    color: rgb(13, 38, 21);
+    font-family: Merriweather, 'Roboto Condensed', monospace;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-left: 630px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
