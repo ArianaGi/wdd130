@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond The Map | Blog</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="navigation">
+     <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/beyondthemaplogo.png" alt="beyondthemaplogo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#culture.html">Cultural Curiosities</a>
+            <a href="blog.html">Blog</a>
+            <button type="button">Message Us!</button>
+
+        </nav>
+
+    </header>
+<section class="hero-blog">
+    <img src="images/rsz_historical-pexels-shalenderkumar-3672388.jpg" alt="historical">
+    <div>
+        <h1>The Offbeat Explorer</h1>
+        <p>Travel Tales Beyond the Ordinary</p>
+        <button>Message</button>
+    </div>
+</section>
+
+<div class="blog-content">
+    <h2>Lost in the Ancient Forests of Yakushima</h2>
+    <p>March 14, 2025</p>
+    <div class="content-post">
+        <div class="post-item">
+            <img src="images/1rsz_culture-pexels-felix-young-449360607-30934783.jpg" alt="redpicture">
+            <p>I never thought a single island could change the way I see the world. But that was before I set foot on Yakushima.
+
+                The journey began with a ferry ride from Kagoshima, where the city’s bustle slowly faded into the endless blue of the sea. As the island came into view, mist-shrouded mountains loomed in the distance, their peaks disappearing into the clouds. The moment I arrived, I could feel the island’s magic—humid air thick with the scent of moss, the distant calls of unseen creatures, and the whisper of the wind through the ancient cedars.
+                
+                I had come to Yakushima for one thing: to lose myself in the island’s legendary forests. Inspired by tales of the Jomon Sugi, one of the oldest trees in the world, I set off before sunrise on a solo hike along the Shiratani Unsuikyo trail. The morning light trickled through the dense canopy, illuminating vibrant green moss carpeting the rocks and tree trunks. It felt like stepping into another world—a world untouched by time.
+                
+                As I wandered deeper, I understood why Yakushima is said to have inspired the landscapes of Princess Mononoke. The trees here didn’t just grow; they lived. Twisting roots tangled like veins over mossy stones, branches stretched out like ancient arms, and everywhere, the sound of water—dripping, trickling, rushing—filled the silence.
+                
+                I had been hiking for hours when the trail suddenly narrowed, leading to a small wooden bridge spanning a river. I paused, taking in the sight of a deer standing motionless on the other side, its dark eyes locked onto mine. We stood in stillness, two travelers sharing the same path. And then, just as silently as it had appeared, it vanished into the undergrowth.
+                
+                That was the moment I realized Yakushima wasn’t just a place—it was alive. It had its own rhythm, its own stories to tell. By the time I reached the Jomon Sugi, exhaustion threatened to take over, but as I rested beneath its towering presence, I felt something deep inside me shift. Time moved differently here. The forest had stood for thousands of years, and in its quiet wisdom, it reminded me to slow down, to breathe, to exist fully in the present.
+                
+                When I finally returned to civilization, my boots were caked in mud, my clothes smelled of earth and rain, and my heart was heavier—with memories, with wonder, with a longing to return.
+                
+                If you ever find yourself craving something beyond the usual tourist paths, let Yakushima be your escape. Get lost in its forests, listen to its whispers, and you might just find a part of yourself that you never knew was missing.
+                
+                </p>
+        </div>
+    </div>
+</div>
+<section id="blog-form">
+<h1>
+    Share Your Story With Us!
+</h1>
+<div id="feedback"></div>
+<form action="/my-handling-form-page" method="post">
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" />
+    </p>
+    <p>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email" />
+    </p>
+    <p>
+      <label for="msg">Your Story:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </p>
+    <p class="button">
+        <button type="submit">Send your message</button>
+    </p>
+  </form>
+  <script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.style.display = "block";
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+</section>
+<footer>
+    <p><a href="#">#</a></p>
+    <p><a href="#">#</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="twitter icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+</body>
