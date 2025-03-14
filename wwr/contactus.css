@@ -1,0 +1,21 @@
+style {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 20rem;
+}
+
+#content {
+    border: 5px solid black;
+    width: 22rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+input textarea {
+    margin-bottom: 1rem;
+}
