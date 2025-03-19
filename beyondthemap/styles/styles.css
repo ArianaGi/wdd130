@@ -54,3 +54,31 @@ nav a:hover {
 
 /*------------------HERO SECTION-----------------------------------*/
 
+#hero {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/6;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    text-align:center;
+    font-family: Lobster, Lora, "Sans Serif";
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem; 
+    color: white; 
+    z-index: 10; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
