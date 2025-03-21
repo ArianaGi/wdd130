@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Signika+Negative:wght@300..700&display=swap');
 
+body {
+    background-color: #dd4f5b;
+    font-family: "Signika Negative", Lora, "Sans Serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     background-color: #971d4e;
     display: grid;
@@ -81,4 +90,46 @@ nav a:hover {
     color: white; 
     z-index: 10; 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/*----------------------Title Box----------------------------------*/
+.home-title {
+    font-family: Lobster, Georgia, 'Times New Roman', Times;
+    text-align: center;
+    position: absolute;
+    font-size: 3rem; 
+    z-index: 10; 
+    margin-left: 425px;
+}
+
+/*-----------------------------------Main Content----------------------------*/
+
+.content-grid {
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.headng {
+    font-family: Lobster, Georgia, 'Times New Roman', Times;
+}
+
+#text-image {
+    margin-top: 200px;
+    overflow: auto;
+}
+
+#home-image {
+    float: right;
+    margin-left: 20px; 
+    border-radius: 10px; 
+    display: inline; 
+}
+
+#culture-grid {
+    grid-column: 2/3;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
 }
