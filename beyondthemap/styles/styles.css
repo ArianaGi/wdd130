@@ -341,8 +341,8 @@ footer p a:hover {
 
 .img-text {
   display: flex;
-  align-items: center;  /* Centers the items vertically */
-  justify-content: center;  /* Centers the content horizontally */
+  align-items: center;  
+  justify-content: center;  
 }
 
 #ch-mrcc {
@@ -376,4 +376,58 @@ footer p a:hover {
   flex: content;
   display: inline;
   color: white;
+}
+
+/*--------------------------------Blog Page-----------------------------------------*/
+
+#hero-blog {
+  width: 100%;
+}
+
+#hero-message {
+  font-family: Lobster, Georgia, 'Times New Roman', Times ;
+  /*margin-left: 450px;*/
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+#blog-title {
+  margin-bottom: 10px;
+}
+
+#sub {
+  margin-top: 0;
+  color: white;
+}
+
+.blog-content {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#posth2 {
+  font-family: "Signika Negative", Lora, "Sans Serif";
+  color: black;
+  margin-top: 10px;
+}
+
+#date {
+  color: pink;
+}
+
+#post-p {
+  color: white;
+}
+
+#ykshm-pic {
+  float: left;
+  padding-right: 15px;
+}
+
+#blog-form {
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
