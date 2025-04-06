@@ -60,23 +60,42 @@
     Share Your Story With Us!
 </h1>
 <div id="feedback"></div>
-<form action="/my-handling-form-page" method="post">
-    <p>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name" />
-    </p>
-    <p>
-      <label for="mail">Email:</label>
-      <input type="email" id="mail" name="user_email" />
-    </p>
-    <p>
-      <label for="msg">Your Story:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </p>
+<form class="blog-form" action="/my-handling-form-page" method="post">
+    <div class="row">
+      <div class="half">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </div>
+      <div class="half">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="user_last_name" />
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="half" style="width: 100%;">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-input" name="user_email" />
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="half">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" class="form-input" />
+      </div>
+  
+      <div class="half">
+        <label for="story">Your Story:</label>
+        <textarea id="story" class="story-box"></textarea>
+      </div>
+    </div>
+  
     <p class="button">
-        <button type="submit">Send your message</button>
+      <button type="submit">Send your message</button>
     </p>
   </form>
+  
   <script>
     const feedbackElement = document.getElementById('feedback');
     const formElement = document.forms[0];
